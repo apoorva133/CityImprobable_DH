@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Mapping Delhi</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+    <script src='dh_template_a.js'></script>
+    <link href='dh_template_a.css' rel='stylesheet' />
+</head>
+<body>
+
+
+
+<!-- DO NOT TOUCH!-->
+<div id='map'></div>
+
+<!-- INFOBOX - Comment out to delete -->
+<div class='map-overlay' id='infobox'><h3>Infobox</h3><div id='pd'><p>Hover over a point </p>  </div></div>
+
+<!-- LEGEND - Comment out to delete -->
+<div class='map-overlay' id='legend'><h3>Legend</h3></div>
+
+<!-- TOGGLE MENU - Comment out to delete -->
+<nav id="menu"></nav>
+
+
+<!--TIMELINE SLIDER - Comment out to delete -->
+<!-- <div id='console'>
+  <h3>Timeline for Dates</h3>
+  <p>add some more text here</p>
+  <div class='session1' id='sliderbar'>
+  <h5>Year: <label id='active-hour'>1526</label></h5>
+  <input id='slider2' class='row' type='range' min='1500' max='2017' step='1' value='1500' />
+</div>
+</div> -->
+<!--END TIMELINE SLIDER: DO NOT COMMENT BEYOND THIS POINT-->
+
+
+<!--OPACITY SLIDER - COMMENT OUT TO DELETE-->
+<!-- <div class='map-overlay2 top'>
+    <div class='map-overlay-inner'>
+        <label><h3>Layer opacity: <span id='slider-value'>100%</span></h3></label>
+        <input id='slider1' type='range' min='0' max='100' step='0' value='100' />
+    </div>
+</div> -->
+<!--OPACITY SLIDER END: DO NOT COMMENT BEYOND THIS POINT-->
+
+
+<!--SLIDESHOW - DO NOT COMMENT OUT-->
+<!--This is where you add all your text-->
+<div id='features'>
+    <section id='part-1' class='active'>
+        <h3>A GENDERED PERSPECTIVE OF THE SPECIFIC PLACES SEEN AND AREAS MENTIONED IN <i>CITY IMPROBABLE</i>
+</h3>
+        <p>This map consolidates specific places seen and areas mentioned on the basis of an author’s gender throughout <i>City Improbable</i>. Only post-partition period stories shall be considered to negate the gender bias that comes due to the disproportionate ratio between male and female authors in <i>City Improbable</i>.
+
+
+ </p>
+      </section>
+        <section id='part-2'>
+            <h3>Introduction
+</h3>
+
+            <p>All the representations are differentiated on the basis of the author’s gender: Male or Female. Specific places seen are represented by two methods, one is through points and the other is through areas that trace the points that each gender type inhabits. The opaqueness of the areas have been represented in decreasing degrees of visibility. Probable areas seen are more visible than areas mentioned. This map is an attempt to showcase the overall space that each gender is seeing or mentioning.
+</p>
+        </section>
+        <section id='part-3'>
+            <h3>Only Male
+</h3>
+
+            <p>The ‘Only Male’ option in the toggle bar shows all the specific places seen and areas mentioned in the stories written by male authors. It is interesting to note that men tend to see areas that are concentrated in the main part of the city. However, they are mentioning areas that are distributed over a wider region of Delhi. It can be interpreted that these male authors are writing about spaces that they can see, most probably it would be in and around spaces that they inhabit. Moreover, they are able to mention a wide range of areas because they have the agency and ability to be mobile.
+        </p>
+        </section>
+        <section id='part-4'>
+            <h3>Only Female</h3>
+
+            <p>The ‘Only Female’ option in the toggle bar shows all the specific places seen and areas mentioned in the stories written by female authors. It can be seen that the probable areas seen seem to cover a large length of area where as areas mentioned seem to be concentrated in the main part of the city. Why do women see more than they mention considering that they have lesser social mobility? It may be that women are writing from home and their residences may be distributed over a wide range of areas. Also, women may be mentioning areas that are in the main part of the city as these might be spaces of common knowledge. They might not be aware of spaces outside of their community.
+</p>
+        </section>
+        <section id='part-5'>
+            <h3>Places Seen</h3>
+
+            <p>‘Places Seen’ compares the spaces seen by both genders. The specific places seen points show that even after using post-partition stories, the number of male authors (24) are significantly higher as compared to female authors (7). Although, it is interesting to note that female authors are seeing a wider range of areas as compared to men.  </p>
+        </section>
+        <section id='part-6'>
+            <h3>Areas Mentioned</h3>
+
+            <p>‘Areas Mentioned’ compares the spaces mentioned by both genders. It can be seen that areas mentioned by female authors are concentrated in the city where as the areas mentioned by male authors are more fragmented. It is interesting to note that there is a significant amount of over-lapping that is occurring with female areas mentioned. Male areas mentioned are not only spread out but, diverse in nature with lesser over-lapping.  </p>
+        </section>
+        <section id='part-7'>
+            <h3>Conclusion</h3>
+            <p>This map is an attempt to capture the gendered trends in <i>City Improbable</i> through specific places seen and areas mentioned. From the visualisation, it is clear that women and men interact with spaces differently. The areas seen and mentioned by male authors are more segmented and spread out. The areas seen and mentioned by female authors tend to be more concentrated around the city. This may be the result of various social restrictions faced by women. These restrictions visibly affect their writing. There is a need for more data as the ratio between male and female authors is still skewed, even after using post-partition stories. More data would help us delve deeper into analysis and make stronger claims. <br> <br>
+
+            This map has been made by Apoorva Jakhar. It would not exist without the invaluable help of Professor Joost Burgers and Teaching Fellow Saloni Bhogale. The feedback and various discussions with fellow classmates have been valuable in the making of the map.  </p>
+    </section>
+</div>
+
+</body>
+</html>
